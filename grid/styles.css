@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0
+}
+header{
+    background-color: gray
+}
+article{
+    background-color: lightblue
+}
+aside{
+    background-color: lightslategray
+}
+section div{
+    background-color: darkblue
+}
+section nav{
+    background-color: darkgoldenrod
+}
+footer{
+    background-color: darkred
+}
