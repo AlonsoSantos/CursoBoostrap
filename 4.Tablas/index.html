@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Curso Bootstrap</title>
+</head>
+<body>
+    <div class="container">
+        <!-- clase table-responsive deja que la tabla sea responsiva en dispositivos pequeños permitiendo con el scroll ver todos los datos -->
+        <div class="table-responsive">
+            <!-- etiqueta table para encerrar datos en una tabla -->
+            <!-- clase table para darle mejor aspecto de tabla -->
+            <!-- clase table-striped da esilo alternado en la tabla (no soportado por internet 8 ni anteriores) -->
+            <!-- clase table-bordered muestra la tabla con bordes -->
+            <!-- clase table-hover activa un hover en las filas -->
+            <!-- clase table-sm hace una tabla mas reducida en espacios (para muchos datos) -->
+            <table class="table table-bordered table-hover table-sm">
+                <!-- etiqueta tr define una fila -->
+                <!-- clase table-(success, info, warning, danger, primary, secondary, dark, light) da color a la fila -->
+                <tr class="table-success">
+                    <!-- etiqueta th define el contenido de la celda con texto en negrilla -->
+                    <th># ID</th>
+                    <th>Nombre</th>
+                    <th>Usuario</th>
+                </tr>
+                <!-- clase table-active muestra por default que la fila esta seleccionada -->
+                <tr class="table-active">
+                    <!-- etiqueta td define el contenido de la celda con texto normal -->
+                    <td >1</td>
+                    <td>Nombre 1</td>
+                    <td>Username 1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Nombre 2</td>
+                    <td>Username 2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Nombre 3</td>
+                    <td>Username 3</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
